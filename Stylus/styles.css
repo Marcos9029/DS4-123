@@ -1,0 +1,110 @@
+/* Estilos globales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #83deff;
+  color: #fff;
+  padding: 1px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #63caed;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el artículo destacado */
+.featured-article {
+  text-align: center;
+}
+
+.featured-article img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para la galería de imágenes */
+
+
+.image-gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image {
+  margin-bottom: 20px;
+  margin-right: 20px; /* Ajusta este valor para aumentar o disminuir el espacio entre las imágenes */
+  flex: 0 0 calc(30% - 20px); /* Ajusta este valor según sea necesario para el tamaño deseado de las imágenes */
+}
+
+.image:last-child {
+  margin-right: 0; /* Elimina el margen derecho de la última imagen para que no haya espacio adicional */
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para el menú de navegación horizontal centrado */
+.menu-container {
+  display: flex;
+  justify-content: center; /* Centrar los elementos horizontalmente */
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+.menu li {
+  margin-left: 20px; /* Espacio entre elementos del menú */
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.menu a:hover {
+  color: #007BFF;
+}
+
+.menu-container {
+  background-color: #333; /* Color de fondo del menú */
+  padding: 10px; /* Espacio alrededor del menú */
+}
+
+.menu {
+  list-style-type: none; /* Elimina los puntos de lista */
+  padding: 0;
+}
+
+.menu li {
+  display: inline; /* Para que los elementos de la lista estén en línea */
+  margin-right: 20px; /* Espacio entre los elementos del menú */
+}
+
+.menu li a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  color: white; /* Color del texto del enlace */
+}
+
+.menu li a:hover {
+  text-decoration: underline; /* Subraya el enlace al pasar el ratón sobre él */
+}
